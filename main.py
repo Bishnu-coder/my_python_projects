@@ -38,13 +38,13 @@ h3x=random.randrange(500,1000)
 h2y=0
 h3y=0
 
-over= 'image/over.jpg'
+over= 'over.jpg'
 over1= pygame.image.load(over)
 
 score=0
 
 pause=False
-p1=pygame.image.load('image/pause.jpg')
+p1=pygame.image.load('pause.jpg')
 
 r1=random.randint(600,750)
 r2=random.randint(600,750)
