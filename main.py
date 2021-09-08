@@ -7,16 +7,16 @@ pygame.init()
 
 
 white=(255,255,255)
-w1=pygame.image.load('image/welcome.png')
-background ='image/Background.jpg'
-player ='image/player.jpg'
+w1=pygame.image.load('welcome.png')
+background ='Background.jpg'
+player ='player.jpg'
 width = 1000
 height= 700
 GAME_SPRITES={}
 GAME_SPRITES['Background'] = pygame.image.load(background)
 GAME_SPRITES['player'] = pygame.image.load(player)
-h2= pygame.transform.rotate(pygame.image.load('image/h2.jpg'),180)
-h3= pygame.transform.rotate(pygame.image.load('image/h3.jpg'),180)
+h2= pygame.transform.rotate(pygame.image.load('h2.jpg'),180)
+h3= pygame.transform.rotate(pygame.image.load('h3.jpg'),180)
 game=False
 game_over=False
 
@@ -36,13 +36,13 @@ h3x=random.randrange(500,1000)
 h2y=0
 h3y=0
 
-over= 'image/over.jpg'
+over= 'over.jpg'
 over1= pygame.image.load(over)
 
 score=0
 
 pause=False
-p1=pygame.image.load('image/pause.jpg')
+p1=pygame.image.load('pause.jpg')
 
 r1=random.randint(600,750)
 r2=random.randint(600,750)
