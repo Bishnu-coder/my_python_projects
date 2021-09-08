@@ -118,7 +118,7 @@ while True :
     if abs(velx - h2x)<90 and abs(vely - h2y)<90 and pause==False:
         score=0
         game_over=True
-        pygame.mixer.Channel(1).play(pygame.mixer.Sound('sound\crash.m4a'))  
+        pygame.mixer.Channel(1).play(pygame.mixer.Sound('crash.m4a'))  
         
     if abs(velx - h3x)<90 and abs(vely - h3y)<90 and pause==False:
         score=0
