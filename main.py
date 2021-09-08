@@ -6,7 +6,7 @@ from pygame import mixer
 
 pygame.init()
 pygame.mixer.init()
-
+pygame.mixer.music.load("crash.m4a")
 start=pygame.mixer.music.load("start.m4a")
 white=(255,255,255)
 w1=pygame.image.load('welcome.png')
