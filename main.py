@@ -7,18 +7,18 @@ from pygame import mixer
 pygame.init()
 pygame.mixer.init()
 
-start=pygame.mixer.music.load("sound/start.m4a")
+start=pygame.mixer.music.load("start.m4a")
 white=(255,255,255)
-w1=pygame.image.load('image/welcome.png')
-background ='image/Background.jpg'
-player ='image/player.jpg'
+w1=pygame.image.load('welcome.png')
+background ='Background.jpg'
+player ='player.jpg'
 width = 1000
 height= 700
 GAME_SPRITES={}
 GAME_SPRITES['Background'] = pygame.image.load(background)
 GAME_SPRITES['player'] = pygame.image.load(player)
-h2= pygame.transform.rotate(pygame.image.load('image/h2.jpg'),180)
-h3= pygame.transform.rotate(pygame.image.load('image/h3.jpg'),180)
+h2= pygame.transform.rotate(pygame.image.load('h2.jpg'),180)
+h3= pygame.transform.rotate(pygame.image.load('h3.jpg'),180)
 game=False
 game_over=False
 
