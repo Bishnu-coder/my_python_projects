@@ -10,6 +10,11 @@ press d and you can view fps and us e up and down key to dcrease or increase FPs
 
 V2.0 have asmooth game play
 
+3. added high score function
+
+4.added back ground sound
+
+Note: plz install pygame befare running
 
             
             
