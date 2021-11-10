@@ -12,9 +12,9 @@ V2.0 have asmooth game play
 
 3. added high score function
 
-4.added back ground sound
+4.added background sound
 
-Note: plz install pygame befare running
+Note: plz install pygame before running
 
             
             
